@@ -20,7 +20,7 @@ export default function About() {
             </p>
             <p className="text-gray-700 leading-relaxed">
               I specialize in modern frontend technologies, particularly React and Next.js, and 
-              I&apos;m always excited to learn about new technologies and best practices in web development and design.
+              Im always excited to learn about new technologies and best practices in web development and design.
             </p>
           </div>
 
