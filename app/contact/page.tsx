@@ -57,7 +57,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-800">Email</p>
-                  <p className="text-gray-600">john.doe@student.gordoncollege.edu.ph</p>
+                  <p className="text-gray-600">202310219@gordoncollege.edu.ph</p>
                 </div>
               </div>
 
@@ -69,9 +69,30 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-800">Phone</p>
-                  <p className="text-gray-600">+63 912 345 6789</p>
+                  <p className="text-gray-600">+63 921 816 2137</p>
                 </div>
               </div>
+
+              <div className="flex items-center space-x-4">
+                <div className="bg-gray-100 p-3 rounded-full">
+                  <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                  </svg>
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-800">Location</p>
+                  <p className="text-gray-600">Olongapo City, Philippines</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Additional Info */}
+            <div className="mt-6 pt-6 border-t border-gray-200">
+              <p className="text-sm text-gray-600">
+                I&apos;m always open to discussing new opportunities, creative projects, 
+                or opportunities to be part of your vision.
+              </p>
             </div>
           </div>
 
