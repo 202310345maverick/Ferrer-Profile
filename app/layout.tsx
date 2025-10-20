@@ -1,12 +1,17 @@
 import './globals.css'
 import Link from 'next/link'
+import { ReactNode } from 'react'
 
 export const metadata = {
   title: 'Shanelle Ferrer - Profile',
   description: 'Frontend/Graphic Designer',
 }
 
-export default function RootLayout({ children }) {
+interface RootLayoutProps {
+  children: ReactNode
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className="h-full">
       <body className="bg-gradient-to-br from-gray-50 via-white to-gray-100 h-full">
@@ -47,16 +52,16 @@ export default function RootLayout({ children }) {
         </nav>
 
         {/* Main Content */}
-        <main className="h-[calc(100vh-56px)]">
+        <main className="min-h-[calc(100vh-56px)]">
           {children}
         </main>
 
         {/* Footer */}
-        <footer className="bg-white/95 backdrop-blur-md border-t border-gray-300 absolute bottom-0 w-full">
+        <footer className="bg-white/95 backdrop-blur-md border-t border-gray-300">
           <div className="container mx-auto px-4 py-3">
             <div className="flex justify-between items-center">
               <div className="text-gray-600 text-xs">
-                 {new Date().getFullYear()} Shanelle C. Ferrer
+                © {new Date().getFullYear()} Shanelle C. Ferrer
               </div>
               
               <div className="flex space-x-3">
