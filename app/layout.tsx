@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { ReactNode } from 'react'
 
 export const metadata = {
-  title: 'Shanelle Ferrer - Profile',
-  description: 'Frontend/Graphic Designer',
+  title: 'Franchesca Lei Arcega - Profile',
+  description: 'Frontend Developer',
 }
 
 interface RootLayoutProps {
@@ -61,7 +61,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <div className="container mx-auto px-4 py-3">
             <div className="flex justify-between items-center">
               <div className="text-gray-600 text-xs">
-                © {new Date().getFullYear()} Shanelle C. Ferrer
+                © {new Date().getFullYear()} Franchesca Lei Arcega
               </div>
               
               <div className="flex space-x-3">

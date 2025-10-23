@@ -40,7 +40,7 @@ export default function Home() {
         <div className="absolute bottom-20 right-20 w-48 h-48 bg-gray-300 rounded-full mix-blend-multiply filter blur-xl opacity-30"></div>
       </div>
 
-      {/* Shrek Modal - HUGE face, no background */}
+      {/* Miles - HUGE face, no background */}
       {showShrekModal && (
         <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 p-4">
           <div className="relative max-w-4xl w-full transform animate-scale-in">
@@ -48,8 +48,8 @@ export default function Home() {
               {/* HUGE Shrek Face - Almost full screen */}
               <div className="w-96 h-96 mx-auto rounded-full overflow-hidden border-8 border-white shadow-2xl">
                 <Image
-                  src="/shrek.gif"
-                  alt="Shrek"
+                  src="/miles.jpeg"
+                  alt="miles"
                   width={384}
                   height={384}
                   className="w-full h-full object-cover"
@@ -72,8 +72,8 @@ export default function Home() {
         {/* Profile Picture */}
         <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-gradient-to-r from-gray-600 to-gray-800 overflow-hidden shadow-lg">
           <Image
-            src="/ferrer.jpg"
-            alt="Shanelle C. Ferrer"
+            src=""
+            alt=""
             width={96}
             height={96}
             className="w-full h-full object-cover"
@@ -83,10 +83,10 @@ export default function Home() {
 
         {/* Name and Bio */}
         <h1 className={`text-3xl font-bold mb-3 transition-colors duration-300 ${textColor}`}>
-          Shanelle C. Ferrer
+          Franchesca Lei Arcega
         </h1>
         <p className="text-gray-600 mb-6 text-lg">
-          Frontend Developer & Graphic Designer
+          Frontend Developer
         </p>
 
         {/* Bio Card */}
